@@ -17,17 +17,17 @@
             <div class="menu container">
                 <a class="menu__logo__dark"><img src="./Asset/images/logo-dark.png" alt=""></a>
                 <a class="menu__logo__light"><img src="./Asset/images/logo-light.png" alt=""></a>
-                <button class="menu__button"><i class="fa-solid fa-bars"></i></button>
-                <div id="menu__dropdown" class="menu__dropdown">
+                <button id="menu__button" class="menu__button"><i class="fa-solid fa-bars"></i></button>
+                <div id="menu__dropdown" class="menu__dropdown disable">
                     <ul>
-                        <li class="menu__dropdown__item"><a class="menu__dropdown__item__link">Home</a></li>
-                        <li class="menu__dropdown__item"><a class="menu__dropdown__item__link">Service</a></li>
-                        <li class="menu__dropdown__item"><a class="menu__dropdown__item__link">Process</a></li>
-                        <li class="menu__dropdown__item"><a class="menu__dropdown__item__link">Testimonial</a></li>
-                        <li class="menu__dropdown__item"><a class="menu__dropdown__item__link">Portfolio</a></li>
-                        <li class="menu__dropdown__item"><a class="menu__dropdown__item__link">Pricing</a></li>
-                        <li class="menu__dropdown__item"><a class="menu__dropdown__item__link">Blog</a></li>
-                        <li class="menu__dropdown__item"><a class="menu__dropdown__item__link">Contact</a></li>
+                        <li class="menu__dropdown__item"><a href="#home" class="menu__dropdown__item__link">Home</a></li>
+                        <li class="menu__dropdown__item"><a href="#service" class="menu__dropdown__item__link">Service</a></li>
+                        <li class="menu__dropdown__item"><a href="#process" class="menu__dropdown__item__link">Process</a></li>
+                        <li class="menu__dropdown__item"><a href="#testimonial" class="menu__dropdown__item__link">Testimonial</a></li>
+                        <li class="menu__dropdown__item"><a href="#portfolio" class="menu__dropdown__item__link">Portfolio</a></li>
+                        <li class="menu__dropdown__item"><a href="#offers" class="menu__dropdown__item__link">Pricing</a></li>
+                        <li class="menu__dropdown__item"><a href="#new" class="menu__dropdown__item__link">Blog</a></li>
+                        <li class="menu__dropdown__item"><a href="#contact" class="menu__dropdown__item__link">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                 </svg>
             </div>
         </div>
-        <div class="feature container">
+        <div id="feature" class="feature container">
             <div class="feature-col col-2">
                 <div class="feature__content">
                     <div class="feature__content__icons"><i class="fa-solid fa-chart-simple"></i></div>
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </div>
-        <div class="service container">
+        <div id="service" class="service container">
             <div class="service__content">
                 <p class="service__content__subtitle">Services We're Provided</p>
                 <h3 class="service__content__title">We do all Creative Services</h3>
@@ -135,7 +135,7 @@
                 </div>
             </div>
         </div>
-        <div class="about">
+        <div id="about" class="about">
             <div class="container">
                 <div class="about__content">
                     <div class="about__content__skillbox">
@@ -178,7 +178,7 @@
                 </div>
             </div>
         </div>
-        <div class="process container">
+        <div id="process" class="process container">
             <div class="process__title">
                 <h3 class="process__title__main">Our Process</h3>
                 <div class="process__title__line line"></div>
@@ -267,7 +267,7 @@
                 </div>
             </div>
         </div>
-        <div class="testimonial">
+        <div id="testimonial" class="testimonial">
             <div class="container">
                 <div class="testimonial__flex">
                     <div class="testimonial__header">
@@ -385,7 +385,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio">
+        <div id="portfolio" class="portfolio">
             <div class="container">
                 <div class="portfolio__flex">
                     <div class="portfolio__header">
@@ -507,7 +507,7 @@
                 </div>
             </div>   
         </div>
-        <div class="offers">
+        <div id="offers" class="offers">
             <div class="container">
                 <div class="offers__flex">
                     <div class="offers__header">
@@ -556,7 +556,7 @@
                 </div>
             </div>
         </div>
-        <div class="new">
+        <div id="new" class="new">
             <div class="container">
                 <div class="new__flex">
                     <div class="new__header">
@@ -570,6 +570,9 @@
                 <div class="new__content">
                     <div class="new__content__item">
                         <img  class="new__content__item__img" src="./Asset/images/img-1 (2).jpg" alt="">
+                        <div class="read-more">
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                         <div class="new__content__item__content">
                             <h5 class="new__content__item__content__title">How to be appreciated for your hard work as a developer</h5>
                             <p class="new__content__item__content__text">The final text is not yet available. Dummy texts have Internet
@@ -585,6 +588,9 @@
                     </div>
                     <div class="new__content__item">
                         <img class="new__content__item__img" src="./Asset/images/img-2 (2).jpg" alt="">
+                        <div class="read-more">
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                         <div class="new__content__item__content">
                             <h5 class="new__content__item__content__title">Developers watch out for these burnout symptoms</h5>
                             <p class="new__content__item__content__text">Allegedly, a Latin scholar established the origin of the
@@ -600,6 +606,9 @@
                     </div>
                     <div class="new__content__item">
                         <img class="new__content__item__img" src="./Asset/images/img-3 (2).jpg" alt="">
+                        <div class="read-more">
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                         <div class="new__content__item__content">
                             <h5 class="new__content__item__content__title">How designers and developers can collaborate better</h5>
                             <p class="new__content__item__content__text">It seems that only fragments of the original text remain in only
@@ -625,7 +634,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact">
+        <div id="contact" class="contact">
             <div class="container">
                 <div class="contact__header">
                     <p class="contact__header__subtitle">CONTACT</p>
@@ -766,5 +775,15 @@ window.addEventListener('scroll', (ev) => {
     ev.preventDefault();
     windowScroll();
 })
+document.getElementById("menu__button").addEventListener("click", function(){ 
+    if(document.getElementById("menu__dropdown").classList.contains("enable")){
+        document.getElementById("menu__dropdown").classList.remove("enable")
+        document.getElementById("menu__dropdown").classList.add("disable")
+
+    }else{
+        document.getElementById("menu__dropdown").classList.add("enable")
+        document.getElementById("menu__dropdown").classList.remove("disable")
+    }
+});
 </script>
 </html>

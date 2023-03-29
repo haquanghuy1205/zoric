@@ -5,6 +5,10 @@
     border-color: #05bd93 !important;
     color: #fff;
 }
+.btn-primary:hover {
+    background: #04a984;
+    box-shadow: 0px 8px 20px -6px rgba(5,189,147,.6);
+}
 .img, svg{
     vertical-align: middle;
 }
@@ -29,7 +33,9 @@
 .disable{
     display: none;
 }
-
+.enable{
+    display: block;
+}
 .btn-active{
     background-color: #05bd93;
     border-color: #05bd93 !important;
