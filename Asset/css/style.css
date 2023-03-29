@@ -1272,6 +1272,12 @@ html{
     .header-sticky a{
         color: #333;
     }
+    .header-sticky .menu__logo__light{
+        display: none;
+    }
+    .header-sticky .menu__logo__dark{
+        display: block;
+    }
     #header{
         padding: 20px 0;
         background-color: transparent;
@@ -1297,6 +1303,7 @@ html{
         color: #fff;
         padding: 0;
     }
+    .menu__logo__dark img,
     .menu__logo__light img{
         height: 22px;
     }
